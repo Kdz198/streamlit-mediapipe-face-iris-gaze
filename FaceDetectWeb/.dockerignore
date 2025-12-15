@@ -1,0 +1,27 @@
+# Bỏ qua thư mục ảo (QUAN TRỌNG NHẤT)
+.venv
+venv
+ENV
+
+# Bỏ qua Git và IDE config
+.git
+.gitignore
+.idea
+.vscode
+
+# Bỏ qua file rác Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Bỏ qua các file video/ảnh nặng nếu có (chỉ giữ code)
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.png
+
+# Bỏ qua chính Dockerfile và các file build
+Dockerfile
+.dockerignore
